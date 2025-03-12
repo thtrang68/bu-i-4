@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .projects {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Giới thiệu</h2>
+            <p>Xin chào! Tôi là [Tên bạn], một lập trình viên web.</p>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>Dự án</h2>
+            <p>Đây là một số dự án mà tôi đã thực hiện.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Liên hệ</h2>
+            <p>Email: example@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>
